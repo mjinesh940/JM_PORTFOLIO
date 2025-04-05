@@ -1,13 +1,13 @@
-/* Blog Page Styling */
+
 .blog-container {
     padding: 4rem 2rem;
-    background-color: #111;
+    /* background-color: #111; */
     text-align: center;
   }
   
   .blog-title {
     font-size: 2.5rem;
-    color: red;
+    color: rgb(62, 97, 238);
     margin-bottom: 2rem;
   }
   
@@ -22,11 +22,11 @@
   
   .blog-post-title {
     font-size: 1.8rem;
-    color: red;
+    color: rgb(0, 217, 255);
     margin-bottom: 0.5rem;
   }
   
   .blog-post-date {
     color: #ccc;
     font-size: 1rem;
-  }  
+  }

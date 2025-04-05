@@ -41,7 +41,7 @@ const Contact = () => {
         <form 
           action="https://formspree.io/f/xzzbqank" 
           method="POST" 
-          className="contact-form" 
+          className="contact-form"
           onSubmit={handleSubmit}
         >
           <div className="form-group">

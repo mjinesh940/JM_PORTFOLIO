@@ -1,21 +1,21 @@
 .footer {
-  background: #2c3e50; /* Midnight Blue */
-  color: #ecf0f1; /* Light text color */
+  background: transparent;
+  color: #ecf0f1; 
   text-align: center;
   padding: 20px;
   box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
   font-size: 0.9rem;
-  margin-top: auto; /* Ensure it appears after the content */
+  margin-top: auto;
 }
 
 .footer p {
   margin: 0;
-  color: #ecf0f1; /* Light text color */
+  color: #ecf0f1;
   transition: color 0.3s ease;
 }
 
 .footer p:hover {
-  color: #2980b9; /* Royal Blue */
+  color: #2980b9;
 }
 
 @media (max-width: 768px) {

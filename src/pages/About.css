@@ -1,7 +1,7 @@
-/* About Me Page Styling */
 .about-container {
   padding: 50px 20px;
-  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  background-color: transparent;
+  /* background: linear-gradient(135deg, #818181, #4c4c4c); */
   color: #fff;
   text-align: center;
   font-family: 'Arial', sans-serif;
@@ -15,7 +15,7 @@
 .about-title {
   font-size: 3rem;
   font-weight: bold;
-  background: -webkit-linear-gradient(45deg, #ff6a00, #ee0979);
+  background: -webkit-linear-gradient(45deg, #4473ff, #1397e3);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -65,11 +65,13 @@
 
 .about-extra h2 {
   font-size: 2rem;
+  color: #ffffff;
   margin-bottom: 15px;
 }
 
 .about-extra p{
-  color: #cfd8dc;
+  color: #ffffff;
+  font-weight:bold;
 }
 
 .cta-section {
@@ -84,7 +86,7 @@
   border-radius: 30px;
   margin: 10px;
   background: linear-gradient(45deg, #ff512f, #dd2476);
-  color: #fff;
+  color: #ffffff;
   cursor: pointer;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }

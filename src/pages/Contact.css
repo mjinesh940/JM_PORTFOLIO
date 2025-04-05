@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: #34495e; /* Darker Blue */
+  background: transparent; /* Darker Blue */
   color: #ecf0f1; /* Light text color */
   padding-top: 60px; /* Avoid overlap with navbar */
 }

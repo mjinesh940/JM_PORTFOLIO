@@ -1,25 +1,33 @@
 import React from 'react';
+import JavaImg from '../images/JAVA.png';
+import ReactImg from '../images/React.png';
+import SpringImg from '../images/Spring.png';
+import DataAnalyticsImg from '../images/DataAnalytics.png';
+import SQLImg from '../images/SQL.png';
+import HibernateImg from '../images/Hibernate.png';
+import WebTechImg from '../images/WebTech.png';
+import PHPImg from '../images/PHP.png';
 import './Skills.css';
 
 const skills = [
-  { name: 'Java', img: ('../images/JAVA.png') }, 
-  { name: 'React', img: require('../images/React.png').default }, 
-  { name: 'Spring Boot', img: require('../images/Spring.png').default }, 
-  { name: 'Data Analytics', img: require('../images/DataAnalytics.png').default }, 
-  { name: 'SQL', img: require('../images/SQL.png').default }, 
-  { name: 'Hibernate', img: require('../images/Hibernate.png').default }, 
-  { name: 'Web-tech', img: require('../images/WebTech.png').default }, 
-  { name: 'PHP', img: require('../images/PHP.png').default }
+  { name: 'Java', img: JavaImg },
+  { name: 'React', img: ReactImg },
+  { name: 'Spring Boot', img: SpringImg },
+  { name: 'Data Analytics', img: DataAnalyticsImg },
+  { name: 'SQL', img: SQLImg },
+  { name: 'Hibernate', img: HibernateImg },
+  { name: 'Web-tech', img: WebTechImg },
+  { name: 'PHP', img: PHPImg }
 ];
 
 const Skills = () => {
   return (
     <section className="skills-section">
-      <h2>Skills</h2>
+      <h2 className="skills-title">Skills</h2>
       <div className="skills-container">
         {skills.map((skill, index) => (
           <div key={index} className="skill">
-            <img src={skill.img} alt={skill.name} />
+            <img src={skill.img} alt={skill.name} className="skill-icon" />
             <div className="skill-name">{skill.name}</div>
           </div>
         ))}

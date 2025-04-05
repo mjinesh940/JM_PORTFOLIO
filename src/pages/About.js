@@ -1,4 +1,5 @@
 import React from 'react';
+import Skills from '../components/Skills'; // adjust path based on your folder structure
 import './About.css';
 
 const About = () => {
@@ -20,19 +21,10 @@ const About = () => {
             My experience includes leading development teams, designing innovative solutions, and excelling in academic and professional environments.
           </p>
         </div>
-        <div className="skills-section">
-          <h2>Core Skills</h2>
-          <div className="skills-grid">
-            <div className="skill">Java</div>
-            <div className="skill">React.js</div>
-            <div className="skill">Spring Boot</div>
-            <div className="skill">SQL</div>
-            <div className="skill">Java Script</div>
-            <div className="skill">Figma</div>
-            <div className="skill">HTML & CSS</div>
-            <div className="skill">Git & GitHub</div>
-          </div>
-        </div>
+
+        {/* ✅ Reuse the Skills Component */}
+        <Skills />
+
         <div className="about-extra">
           <h2>What Drives Me?</h2>
           <p>
@@ -41,12 +33,12 @@ const About = () => {
             I bring the same energy and focus to everything I do.
           </p>
         </div>
-        <div className="cta-section">
-        <a href="https://drive.google.com/file/d/1_9vcv9c8irGRlV8xLlAadc17vDxn_yQM/view?usp=sharing" 
-           className="cta-button">Download My Resume</a>
 
-        <a href="https://github.com/mjinesh940" 
-           className="cta-button">Visit My GitHub</a>
+        <div className="cta-section">
+          <a href="https://drive.google.com/file/d/1_9vcv9c8irGRlV8xLlAadc17vDxn_yQM/view?usp=sharing" 
+             className="cta-button">Download My Resume</a>
+          <a href="https://github.com/mjinesh940" 
+             className="cta-button">Visit My GitHub</a>
         </div>
       </div>
     </div>

@@ -1,3 +1,4 @@
+/* === DESKTOP VIEW (unchanged) === */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -54,29 +55,35 @@
   background-color: #2c3e50;
 }
 
+
+/* === MOBILE VIEW === */
 @media (max-width: 768px) {
   .nav-links {
-    display: flex;
     flex-direction: column;
     text-align: center;
     padding-top: 1rem;
     position: absolute;
     top: 60px;
     left: 0;
-    background-color: #ffffff;
+    background-color: #1e1e1e; /* Changed to dark for better text visibility */
     width: 100%;
     opacity: 0;
     pointer-events: none;
-    transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    transform: translateY(-10px);
     z-index: 10;
+    gap: 0;
+    border-radius: 0 0 10px 10px;
   }
 
   .nav-links.active {
     opacity: 1;
     pointer-events: auto;
+    transform: translateY(0);
   }
 
   .nav-links li {
+    margin-bottom: 10px;
     opacity: 0;
     transform: translateY(-10px);
     animation: slideDown 0.4s ease forwards;
@@ -109,15 +116,26 @@
     }
   }
 
+  .nav-links li a {
+    color: #ffffff; /* Make text visible on dark background */
+    background-color: #8e44ad;
+    font-size: 1.1rem;
+    padding: 12px 20px;
+    border-radius: 8px;
+    display: inline-block;
+    width: 80%;
+    margin: 0 auto;
+    transition: background-color 0.3s ease;
+  }
+
+  .nav-links li a:hover {
+    background-color: #a75bc9;
+  }
+
   .navbar-toggle {
     display: block;
-  }
-
-  .nav-links {
-    gap: 0;
-  }
-
-  .nav-links li {
-    margin-bottom: 10px;
+    position: absolute;
+    top: 10px;
+    right: 15px;
   }
 }

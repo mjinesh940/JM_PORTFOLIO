@@ -11,7 +11,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router basename="/Jinesh_Modi_Portfolio">
+    <Router basename="/JM_PORTFOLIO">
       <div className="app-container">
         <Navbar />
         <Routes>

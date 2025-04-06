@@ -1,32 +1,43 @@
-
 .blog-container {
-    padding: 4rem 2rem;
-    /* background-color: #111; */
-    text-align: center;
-  }
-  
-  .blog-title {
-    font-size: 2.5rem;
-    color: rgb(62, 97, 238);
-    margin-bottom: 2rem;
-  }
-  
-  .blog-list {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .blog-item {
-    margin-bottom: 2rem;
-  }
-  
-  .blog-post-title {
-    font-size: 1.8rem;
-    color: rgb(0, 217, 255);
-    margin-bottom: 0.5rem;
-  }
-  
-  .blog-post-date {
-    color: #ccc;
-    font-size: 1rem;
-  }
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.blog-title {
+  font-size: 2.5rem;
+  color: rgb(62, 97, 238);
+  margin-bottom: 2rem;
+}
+
+.blog-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.blog-item {
+  margin-bottom: 2rem;
+}
+
+/* Blog Link Styling */
+.blog-link {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.blog-link:hover {
+  transform: scale(1.02);
+}
+
+/* Title & Date */
+.blog-post-title {
+  font-size: 1.8rem;
+  color: rgb(0, 217, 255);
+  margin-bottom: 0.5rem;
+}
+
+.blog-post-date {
+  color: #ccc;
+  font-size: 1rem;
+}

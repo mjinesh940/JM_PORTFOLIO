@@ -3,8 +3,7 @@ html, body {
   padding: 0;
   box-sizing: border-box;
   font-family: 'Arial', sans-serif;
-  background: #1e1e1e;
-  color: white;
+  /* background: #1e1e1e; */
   scroll-behavior: smooth;
 }
 
@@ -39,12 +38,12 @@ html, body {
 }
 
 .project-card {
-  background: #2e2e2e;
+  /* background: #2e2e2e; */
   border-radius: 12px;
   padding: 25px 20px;
   width: 100%;
   max-width: 350px;
-  min-height: 240px;
+  /* min-height: 240px; */
   text-align: left;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease;
@@ -57,7 +56,8 @@ html, body {
 .project-title {
   font-size: 1.5rem;
   margin-bottom: 10px;
-  color: #fff;
+  /* color: #fff; */
+  color: #00d9ff;
   font-weight: bold;
 }
 
@@ -83,6 +83,6 @@ html, body {
   }
 
   .project-card {
-    padding: 20px 15px;
+    padding: 10px 15px;
   }
 }

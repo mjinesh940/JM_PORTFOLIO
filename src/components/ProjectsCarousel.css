@@ -25,7 +25,7 @@
 }
 
 .project-card {
-  background: linear-gradient(45deg, #2958b1, #185a9d);
+  /* background: linear-gradient(45deg, #2958b1, #185a9d); */
   border-radius: 10px;
   padding: 2rem;
   text-align: left;
@@ -85,6 +85,6 @@
 
   .project-card {
     width: 100%;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
 }

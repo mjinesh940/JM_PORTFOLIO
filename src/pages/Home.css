@@ -48,3 +48,45 @@
     transform: translateY(0);
   }
 }
+
+@media (max-width: 768px) {
+  .home {
+    padding: 10px;
+  }
+
+  .intro-text {
+    max-width: 90%;
+    font-size: 0.9rem;
+    margin: 10px 0;
+  }
+
+  .home h1 {
+    font-size: 1.5rem;
+  }
+
+  .home h2 {
+    font-size: 1.2rem;
+  }
+
+  .home h3 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .home {
+    padding: 8px;
+  }
+
+  .home h1 {
+    font-size: 1.3rem;
+  }
+
+  .home h2 {
+    font-size: 1rem;
+  }
+
+  .home h3 {
+    font-size: 0.9rem;
+  }
+}

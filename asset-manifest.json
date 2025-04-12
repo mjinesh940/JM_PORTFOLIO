@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/JM_PORTFOLIO/static/css/main.ec786963.css",
-    "main.js": "/JM_PORTFOLIO/static/js/main.f6d8e7cf.js",
+    "main.css": "/JM_PORTFOLIO/static/css/main.938900e8.css",
+    "main.js": "/JM_PORTFOLIO/static/js/main.551cdb54.js",
     "static/js/453.1407b060.chunk.js": "/JM_PORTFOLIO/static/js/453.1407b060.chunk.js",
     "static/media/background": "/JM_PORTFOLIO/static/media/background.a92c41b851977e4abd99",
-    "static/media/QR_REACT_HOOKS.jpg": "/JM_PORTFOLIO/static/media/QR_REACT_HOOKS.903b8b7c31b66aa3c00b.jpg",
+    "static/media/QR_REACT_HOOKS.jpg": "/JM_PORTFOLIO/static/media/QR_REACT_HOOKS.b6a86779340dd0bbec0b.jpg",
+    "static/media/QR_SPRING_BOOT.jpg": "/JM_PORTFOLIO/static/media/QR_SPRING_BOOT.281b8fe23fec2f53bf2a.jpg",
     "static/media/DataAnalytics.png": "/JM_PORTFOLIO/static/media/DataAnalytics.4981016c1148daf71776.png",
     "static/media/Spring.png": "/JM_PORTFOLIO/static/media/Spring.e82018cf32e10af73393.png",
     "static/media/JAVA.png": "/JM_PORTFOLIO/static/media/JAVA.f5dd86c3ef6ef3f85acf.png",
     "static/media/WebTech.png": "/JM_PORTFOLIO/static/media/WebTech.d7648bf6a2be0b7f764f.png",
     "index.html": "/JM_PORTFOLIO/index.html",
-    "main.ec786963.css.map": "/JM_PORTFOLIO/static/css/main.ec786963.css.map",
-    "main.f6d8e7cf.js.map": "/JM_PORTFOLIO/static/js/main.f6d8e7cf.js.map",
+    "main.938900e8.css.map": "/JM_PORTFOLIO/static/css/main.938900e8.css.map",
+    "main.551cdb54.js.map": "/JM_PORTFOLIO/static/js/main.551cdb54.js.map",
     "453.1407b060.chunk.js.map": "/JM_PORTFOLIO/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec786963.css",
-    "static/js/main.f6d8e7cf.js"
+    "static/css/main.938900e8.css",
+    "static/js/main.551cdb54.js"
   ]
 }

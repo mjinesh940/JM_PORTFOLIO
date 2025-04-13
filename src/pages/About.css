@@ -49,16 +49,6 @@
   gap: 15px;
 }
 
-.skill {
-  background: linear-gradient(45deg, #43cea2, #185a9d);
-  color: #fff;
-  font-size: 1rem;
-  padding: 10px 15px;
-  border-radius: 20px;
-  font-weight: bold;
-  animation: scaleUp 0.5s ease-in-out;
-}
-
 .about-extra {
   margin-top: 50px;
 }

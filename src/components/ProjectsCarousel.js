@@ -1,35 +1,45 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import './ProjectsCarousel.css';
 
-const projects = [
-  { name: 'Scholarship Portal', tech: 'React, PHP', link: 'https://github.com/mjinesh940/Scholarship-Portal' },
-  { name: 'Feed Forward Portal', tech: 'React, Firebase', link: 'https://github.com/mjinesh940/Feed_Forward' },
-  { name: 'Sentiment Analysis', tech: 'Python, ML', link: 'https://github.com/mjinesh940/Text_Analysis' }
-];
-
 const ProjectsCarousel = () => {
-  const [isVisible, setIsVisible] = useState(false);
-
-  useEffect(() => {
-    setIsVisible(true);
-  }, []);
+  const projects = [
+    {
+      title: 'Scholarship Portal',
+      description: 'A comprehensive solution for managing scholarship applications.',
+      link: 'https://github.com/mjinesh940/Scholarship-Portal',
+    },
+    {
+      title: 'Feed Forward Portal',
+      description: 'An interactive platform for sharing feedback and suggestions.',
+      link: 'https://github.com/mjinesh940/Feed_Forward',
+    },
+    {
+      title: 'Text & Sentiment Analysis',
+      description: 'An application using ML algorithms for text classification.',
+      link: 'https://github.com/mjinesh940/Text_Analysis',
+    },
+  ];
 
   return (
-    <section className="projects-carousel">
-      <h2>Projects</h2>
-      <div className={`carousel ${isVisible ? 'fade-in' : ''}`}>
+    <section className="projects-section">
+      <h1 className="projects-title">Projects</h1>
+      <p className="projects-subtitle">
+        Explore some of the exciting projects I’ve worked on, showcasing my skills in development and problem-solving.
+      </p>
+      <div className="projects-grid">
         {projects.map((project, index) => (
-          <a 
-            key={index} 
-            href={project.link} 
-            target="_blank" 
-            rel="noreferrer" 
-            className="project-card"
-          >
-            <h3>{project.name}</h3>
-            <p>{project.tech}</p>
-            <div className="project-link">View on GitHub</div>
-          </a>
+          <div key={index} className="project-card fade-in">
+            <h2 className="project-name">{project.title}</h2>
+            <p className="project-description">{project.description}</p>
+            <a
+              href={project.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-link"
+            >
+              View Project
+            </a>
+          </div>
         ))}
       </div>
     </section>

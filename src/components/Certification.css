@@ -1,24 +1,25 @@
-.projects-section {
+.certifications-section {
   max-width: 1200px;
   margin: 10px auto;
   padding: 40px 20px;
   text-align: center;
 }
 
-.projects-title {
+.certifications-section h2 {
   font-size: 2.8rem;
   margin-bottom: 10px;
+  color: #ffffff;
   position: relative;
   display: inline-block;
   padding-bottom: 10px;
-  color: white;
+  border-bottom: none;
 }
 
-.projects-title::after {
+.certifications-section h2::after {
   content: '';
   position: absolute;
-  width: 430%;
-  height: 3px;
+  width: 270%;
+  height: 4px;
   border-bottom: 2px solid #007bff;
   left: 50%;
   transform: translateX(-50%);
@@ -26,13 +27,13 @@
   border-radius: 5px;
 }
 
-.projects-subtitle {
+.cert-subtitle {
   font-size: 1.2rem;
   margin-bottom: 40px;
   color: #ccc;
 }
 
-.projects-grid {
+.cert-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 30px;
@@ -40,80 +41,85 @@
   margin-top: 40px;
 }
 
-.project-card {
+.cert-card {
   border-radius: 12px;
   padding: 25px 20px;
   width: 100%;
   max-width: 350px;
   text-align: left;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-  background: transparent;
   transition: transform 0.3s ease;
+  background: transparent;
 }
 
-.project-card:hover {
+.cert-card:hover {
   transform: translateY(-5px);
 }
 
-.project-name {
+.cert-card h3 {
   font-size: 1.5rem;
   margin-bottom: 10px;
   color: #00d9ff;
   font-weight: bold;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 5px;    
+  transition: border-color 0.3s ease-in-out;       
 }
 
-.project-description {
+
+.cert-card p {
   font-size: 1rem;
   color: #ccc;
   margin-bottom: 8px;
 }
 
-.project-link {
+.cert-card a {
   color: #ff4c4c;
   text-decoration: none;
   font-weight: bold;
 }
 
-.project-link:hover {
+.cert-card a:hover {
   text-decoration: underline;
 }
 
-/* Tablet View */
 @media (max-width: 768px) {
-  .projects-title {
+  .certifications-section h2 {
     font-size: 2.2rem;
   }
 
-  .projects-subtitle {
+  .cert-subtitle {
     font-size: 1.1rem;
   }
 
-  .projects-grid {
+  .cert-list {
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     gap: 20px;
   }
 
-  .project-card {
+  .cert-card {
     padding: 20px 15px;
   }
 }
 
-/* Mobile View */
 @media (max-width: 480px) {
-  .projects-title {
+  .certifications-section h2 {
     font-size: 2rem;
   }
 
-  .projects-subtitle {
+  .cert-subtitle {
     font-size: 1rem;
   }
 
-  .project-name {
+  .cert-card h3 {
     font-size: 1.3rem;
   }
 
-  .project-description,
-  .project-link {
+  .cert-card p {
+    font-size: 0.95rem;
+  }
+
+  .cert-card a {
     font-size: 0.95rem;
   }
 }
